@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/memo.css">
+    <!-- <script src="js/createBox.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Memo</title>
+   
+</head>
+<body>
+    <div id="wrap">
+        <!-- 스티커 메모 -->
+        <div class="memo" id="memo-1">
+            <div class="header">
+                <h1 class="blind">메모장</h1>
+                <button class="btn_close"><span class="blind">닫기</span></button>
+            </div>
+            <div class="content">
+                <div class="textarea" contenteditable="true" style="width:200px; height:100px;">
+                </div>
+                <button class="btn_size"><span class="blind">메모장 크기 조절</span></button>
+            </div>
+        </div>
+        <!--// 스티커 메모 -->
+    </div>
+    <!-- Dependencies: -->
+    <script src="js/createMemo.js"></script>
+    <script src="js/dragMemo.js"></script>
+
+</body>
+</html>
